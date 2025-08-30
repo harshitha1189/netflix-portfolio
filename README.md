@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+---
+
+# 🎬 Netflix-Style Portfolio Website
+
+A **modern, cinematic personal portfolio** built with **Next.js, Tailwind CSS, and Framer Motion**, inspired by Netflix’s design philosophy.
+This portfolio highlights my **education, experiences, projects, skills, achievements, and certifications** in an engaging way.
+
+---
+
+## 🚀 Features
+
+* 🎥 **Netflix-inspired UI** with smooth animations
+* 📱 **Fully responsive** (works on desktop & mobile)
+* 🖼️ Hero section with **profile picture + animated intro**
+* 🎓 Sections for **Education, Experience, Projects, Skills, Achievements, Certifications**
+* 🏆 Highlighted **Achievements & Milestones**
+* 🧑‍💻 Interactive **Project Cards** with GitHub & Live Demo links
+* 🎨 **Framer Motion animations** for smooth transitions
+* 🌐 Easy to customize (all data stored in `portfolioData.js`)
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ **Next.js 14** – React framework for production-grade apps
+* 🎨 **Tailwind CSS** – Utility-first styling
+* 🌀 **Framer Motion** – Animations & transitions
+* 📦 **Lucide Icons** – Modern React icons
+* 🔧 **Vercel** – Deployment & hosting
+
+---
+
+## 📂 Folder Structure
+
+```
+netflix-portfolio/
+│── public/            # Static assets (images, favicon, profile pic, etc.)
+│── src/
+│   ├── app/           # Next.js app router
+│   ├── components/    # All portfolio sections (Navbar, Hero, Skills, etc.)
+│   ├── data/          # portfolioData.js (all personal info here)
+│   ├── styles/        # global.css (Netflix theme utilities + Tailwind)
+│── package.json
+│── tailwind.config.js
+│── README.md
+│── .gitignore
+```
+
+
+
+## ⚡ Quick Start
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/netflix-portfolio.git
+cd netflix-portfolio
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+App runs at 👉 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4️⃣ Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 🌐 Live Demo
+
+🔗 [View Portfolio](https://your-portfolio-link.vercel.app)
+
+---
+
+
+
+
+## ⚖️ License
+
+This project is licensed under the **MIT License** 
+
+---
+
+✨ Built with ❤️ by **Harshitha**
+
+---
+
+👉 I can also make a **minimal fancy version** (with badges, shields, GitHub stats cards) if you want it to look more eye-catching on GitHub.
+
+Do you want me to **add shields & badges** (like Next.js, Tailwind, Framer Motion logos) at the top of your README?
