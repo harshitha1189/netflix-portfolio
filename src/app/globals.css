@@ -1,26 +1,77 @@
+/* Import Tailwind v4 */
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+/* ---------- Custom Netflix-style Utilities ---------- */
+
+/* Fonts */
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.05em;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.font-inter {
+  font-family: 'Inter', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Text Shadow */
+.netflix-text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Vignette Background Overlay */
+.netflix-vignette {
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.8) 100%);
+}
+
+/* Red Glow Effect */
+.netflix-red-glow {
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.3);
+}
+.netflix-red-glow:hover {
+  box-shadow: 0 0 30px rgba(229, 9, 20, 0.5);
+}
+
+/* Hide Scrollbars */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Line Clamps (truncate text) */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Netflix Card Hover */
+.netflix-card-hover {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.netflix-card-hover:hover {
+  transform: scale(1.08) translateY(-5px);
+}
+
+/* Optional: Background Pulse Animation */
+@keyframes pulse {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
 }
