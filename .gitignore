@@ -13,6 +13,10 @@
 # testing
 /coverage
 
+# ignore personal portfolio data
+src/data/portfolioData.js
+
+
 # next.js
 /.next/
 /out/
