@@ -28,7 +28,7 @@ This portfolio highlights my **education, experiences, projects, skills, achieve
 * 🎨 **Tailwind CSS** – Utility-first styling
 * 🌀 **Framer Motion** – Animations & transitions
 * 📦 **Lucide Icons** – Modern React icons
-* 🔧 **Vercel** – Deployment & hosting
+* 🔧 **Netlify** – Deployment & hosting
 
 ---
 
@@ -91,7 +91,7 @@ npm start
 
 ## 🌐 Live Demo
 
-🔗 [View Portfolio](https://your-portfolio-link.vercel.app)
+🔗 [View Portfolio]([https://your-portfolio-link.vercel.app](https://silly-souffle-3ffa99.netlify.app/))
 
 ---
 
